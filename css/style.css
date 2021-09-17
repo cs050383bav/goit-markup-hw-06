@@ -26,7 +26,9 @@ body {
 }
 
 .link,
-button {
+button,
+.modal-img,
+.modal-icon {
     text-decoration: none;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -780,7 +782,8 @@ img {
 }
 
 .modal-close:hover .modal-img,
-.modal-close:focus .modal-img .modal-form-field:focus .modal-icon,
+.modal-close:focus .modal-img,
+.modal-form-field:focus .modal-icon,
 .modal-form-field:hover .modal-icon {
     fill: var(--accent-text-color);
 }

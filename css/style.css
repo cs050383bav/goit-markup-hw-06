@@ -132,10 +132,6 @@ img {
 
 .header-link:hover,
 .header-link:focus {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
     color: var(--accent-text-color);
 }
 
@@ -161,10 +157,6 @@ img {
 .header-mail:focus,
 .header-phone:focus,
 .header-mail:hover {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
     color: var(--accent-text-color);
 }
 
@@ -173,9 +165,6 @@ img {
     width: 18px;
     height: 15px;
     margin-right: 10px;
-}
-
-.header-icon use {
 }
 
 .header-item:not(:last-child) {
@@ -773,6 +762,12 @@ img {
     background: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50px;
+}
+
+.modal-close:hover .modal-img,
+.modal-close:focus .modal-img .modal-form-field:focus .modal-icon,
+.modal-form-field:hover .modal-icon {
+    fill: var(--accent-text-color);
 }
 
 .modal-img {

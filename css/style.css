@@ -783,8 +783,8 @@ img {
 
 .modal-close:hover .modal-img,
 .modal-close:focus .modal-img,
-.modal-form-field:focus .modal-icon,
-.modal-form-field:hover .modal-icon {
+.modal-form-field:hover .modal-icon,
+.modal-form-field:focus .modal-icon {
     fill: var(--accent-text-color);
 }
 

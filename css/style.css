@@ -568,8 +568,8 @@ img {
     height: 50px;
     background: none;
     font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 14px;
+    line-height: 1.167;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -593,6 +593,21 @@ img {
     height: 24px;
     margin-left: 10px;
     fill: tomato;
+}
+
+.conect-field {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgb(255, 255, 255);
+}
+
+.conect-field::placeholder {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 /*=+=+=+=+=+=+=+=+=+= portfolio =+=+=+=+=+=+=+=+=*/
@@ -844,10 +859,6 @@ img {
     letter-spacing: 0.01em;
     resize: none;
 }
-
-/* .modal-comment::placeholder{
-    color:tomato;
-} - красит плейсхолдер */
 
 .fild-check {
     margin-left: 12px;

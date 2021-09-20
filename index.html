@@ -81,7 +81,7 @@
                     <h1 class="hero-title">
                         Эффективные решения<br />для вашего бизнеса
                     </h1>
-                    <button class="hero-button" data-modal-open>
+                    <button class="hero-button" data-modal-open type="submit">
                         Заказать услугу
                     </button>
                 </section>
@@ -536,7 +536,7 @@
                          <div class="modal-form-field">
                         <input type="email" class="conect-field" placeholder="E-mail" name="modal-mail" />
                     </div>
-                    <button class="button-mailing">
+                    <button class="button-mailing" type="submit">
                         <span>Подписаться</span> 
                         <svg class="mailing-icon">
                             <use href="./images/sprite.svg#icon-send"></use>
@@ -549,7 +549,7 @@
         <!-- modal -->
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-                <button class="modal-close" data-modal-close>
+                <button class="modal-close" data-modal-close type="submit">
                     <svg class="modal-img">
                         <use href="./images/sprite.svg#icon-close"></use>
                     </svg>
@@ -614,7 +614,7 @@
                         ></textarea>
                     </div>
                     <div class="modal-form-field fild-check">
-                        <input type="checkbox" id="check" class="visually-hidden checkbox" name="privacy"/>
+                        <input type="checkbox" id="check" class="visually-hidden checkbox" name="privacy" required>
                         <label for="check" class="modal-check">
                             <span class="icon-check">
                                 <svg class="">
@@ -624,7 +624,7 @@
                             Соглашаюсь с рассылкой и принимаю <a href="" class="link contract">Условия договор</a>
                         </label>
                         <div class="button-center">
-                            <button class="send-button">Отправить</button>
+                            <button class="send-button" type="submit">Отправить</button>
                         </div>
                     </div>
                 </form>
